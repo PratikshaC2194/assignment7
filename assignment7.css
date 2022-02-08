@@ -1,0 +1,225 @@
+
+.text1
+{
+    width:1400px;
+    height:20px;
+    border:2px solid red;
+    text-align:center;
+    background-image:linear-gradient(to right,
+    red,
+    green,
+    yellow);
+    color:aquamarine;
+    text-decoration: underline;
+}
+.text2
+{   
+    width:700px;
+    height:50px;
+    background-color: aquamarine;
+    border:2px solid red;
+    border-radius:20px;
+    font-size:10px;
+    text-align:center;
+    margin:auto;
+    font-weight: bolder;
+    align-items: center;
+}
+.text5, .text3
+{
+    display:flex;
+    flex-direction: row;
+    
+}
+.text3
+{
+    width:1300px;
+    height:100px;
+    border:1px solid red;
+    border-radius:25px;
+    box-shadow:6px 5px 4px grey;
+    background-color:rgb(11, 184, 146)
+}
+.t1
+{   display: flex;
+    width:400px;
+    height:55px;
+    border:2px solid green;
+    background-color: aquamarine;
+    border-radius:12px;
+    text-align:center;
+    position: relative;
+}
+  
+.t2
+{   display: flex;
+    width:400px;
+    height:55px;
+    border:2px solid green;
+    background-color: aquamarine;
+    border-radius:12px;
+    text-align:center;
+    position:relative;
+   
+}
+.t3
+{   
+    display: flex;
+    width:400px;
+    height:55px;
+    border:2px solid green;
+    background-color: aquamarine;
+    border-radius:12px;
+    text-align:center;
+    margin:auto;
+    position:relative;
+} 
+.t4
+{    display: flex;
+    width:400px;
+    height:55px;
+    border:2px solid green;
+    background-color: aquamarine;
+    border-radius:12px;
+    text-align:center;
+    margin:auto;
+    position:relative;
+}   
+.text4
+{
+    width:1400px;
+    height:40px;
+    border:2px solid red;
+    text-align:center;
+    text-decoration: underline red;
+    background-image:linear-gradient(to right,
+    red,
+    yellow,
+    red);
+}
+
+.text5
+{   
+    width:1300px;
+    height:200px;
+    border:1px solid green;
+    background-image:radial-gradient(blue 40%, rgb(30, 165, 165),green);
+}
+.t5
+{   
+    display:flex;
+    width:200px;
+    height:100px;
+    border:1px solid red;
+    border-radius:18px;
+    background-color: yellow;
+    color:brown;
+    text-align: center;
+    text-decoration: underline;
+    justify-content: space-between 2px;
+    margin:auto;
+} 
+.t6
+{   display:flex;
+    width:200px;
+    height:100px;
+    border:1px solid red;
+    border-radius:18px;
+    background-color: yellow;
+    color:brown;
+    text-align: center;
+    text-decoration: underline;
+    float:right;
+    justify-content: space-around;
+    margin:auto;
+}
+.t7
+{   display:flex;
+    width:200px;
+    height:100px;
+    border:1px solid red;
+    border-radius:18px;
+    background-color: yellow;
+    color:brown;
+    text-align: center;
+    text-decoration: underline;
+    float:right;
+    margin:auto;
+}
+.t8
+{   
+    display:flex;
+    width:200px;
+    height:100px;
+    border:1px solid red;
+    border-radius:18px;
+    background-color: yellow;
+    color:brown;
+    text-align: center;
+    text-decoration: underline;
+    margin:auto;
+
+}
+.container
+{
+    width:100%;
+    margin:50px auto;
+    border:1px solid red;
+    display:grid;
+    grid-template-rows:60px 100px 200px 60px;
+    grid-template-columns:repeat(3,1fr)100px;
+    gap:20px;
+}
+.box1
+{
+    background-color: red;
+    text-align: center;
+    grid-column:1/5;   
+    color:white;
+    padding:20px;
+    font-size: larger;
+}
+.box2
+{
+    background-color: rgb(77, 216, 59);
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+.box3
+{
+    background-color: rgb(113, 179, 241);
+     color:white;
+     padding:20px;
+}
+.box4
+{
+    background-color:blue;
+     color:white;
+     padding:20px;
+}
+.box5
+{
+    background-color: black;
+    grid-row: 2/4;
+    grid-column:4/5;
+    color:white;
+    text-decoration: underline;
+}
+.box6
+{
+    background-color:orangered;
+    grid-column: 1/4;
+    color:aliceblue;
+    padding:20px;
+}
+.box7
+{
+    background-color: purple;
+    text-align: center;
+    grid-column: 1/5;
+    color: white;
+    padding:15px;
+    font-size: larger;
+    font-weight: bolder;
+}
